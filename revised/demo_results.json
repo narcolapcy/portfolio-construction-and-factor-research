@@ -1,0 +1,23 @@
+{
+  "data_kind": "DETERMINISTIC SYNTHETIC TEST FIXTURE; NOT MARKET DATA",
+  "revision_date": "2026-09-12",
+  "not_original_2024_results": true,
+  "seed": 20260912,
+  "assets": 10,
+  "input_weekly_return_periods": 104,
+  "lookback_periods": 52,
+  "evaluation_periods": 52,
+  "candidate_portfolios_per_decision": 10000,
+  "cost_bps_per_unit_l1_traded": 10,
+  "net_return_synthetic_only": 0.08536142813853198,
+  "annualized_excess_sharpe_synthetic_only": 0.5298367245754596,
+  "max_drawdown_synthetic_only": 0.10207407800770474,
+  "max_weight_sum_error": 2.220446049250313e-16,
+  "ols_synthetic_only": {
+    "alpha_per_period": 4.996965839999935e-05,
+    "market_beta": 1.0230956371405027,
+    "smb_beta": 0.07873089750426943,
+    "hml_beta": -0.6582658808151168
+  },
+  "black_litterman_posterior_finite": true
+}
